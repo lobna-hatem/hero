@@ -1,0 +1,38 @@
+.ttl {
+
+	font-family: 'Luckiest Guy';
+	font-size: 50px;
+	margin-bottom: auto;
+	text-align: auto;
+	letter-spacing: 3px;
+	word-spacing: 15px;
+	text-transform: lowercase;
+	padding-bottom: 90px;
+	color: #4A3A47;
+}
+
+.imgstyle {
+
+	border-radius: 100%; 
+	width: 130px; 
+	padding: 5px; 
+	border: 2px dashed #4A3A47;
+}
+
+.member {
+
+	width: 130px;
+	height: 130px;
+	margin-left: auto;
+	margin-top: auto;
+	padding-right: 100px;
+	padding-bottom: 50px;
+	float: middle;
+	display: inline block;
+	-webkit-filter: grayscale(100%);
+	
+}
+
+.member:hover {
+	-webkit-filter: grayscale(0%);
+}
